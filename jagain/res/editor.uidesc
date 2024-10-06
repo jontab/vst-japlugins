@@ -1,0 +1,167 @@
+{
+	"vstgui-ui-description": {
+		"version": "1",
+		"bitmaps": {},
+		"fonts": {},
+		"colors": {},
+		"gradients": {},
+		"control-tags": {
+			"Gain": "102"
+		},
+		"custom": {
+			"FocusDrawing": {},
+			"VST3Editor": {
+				"Path": "/Users/jonab/Source/Repos/vst-japlugins/jagain/res/editor.uidesc"
+			},
+			"UIGridController": {
+				"Grids": "1x 1,5x 5,10x 10,12x 12,15x 15"
+			},
+			"UITemplateController": {
+				"SelectedTemplate": "view"
+			},
+			"UIEditController": {
+				"EditViewScale": "1",
+				"EditorSize": "0, 0, 544.5, 439.5",
+				"SplitViewSize_0_0": "0.6856106408706167387734353724226821213961",
+				"SplitViewSize_0_1": "0.2660217654171704859678015964163932949305",
+				"SplitViewSize_1_0": "0.4746070133010882874380342855147318914533",
+				"SplitViewSize_1_1": "0.5133010882708585187472749566950369626284",
+				"SplitViewSize_2_0": "0.5023638372359963133462201767542865127325",
+				"SplitViewSize_2_1": "0.4884534263085399397041896918381098657846",
+				"TabSwitchValue": "0",
+				"Version": "1"
+			},
+			"UIAttributesController": {},
+			"UIViewCreatorDataSource": {
+				"SelectedRow": "9"
+			},
+			"UIColorsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIGradientsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIBitmapsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UITagsDataSource": {
+				"SelectedRow": "0"
+			}
+		},
+		"templates": {
+			"view": {
+				"attributes": {
+					"background-color": "~ BlackCColor",
+					"background-color-draw-style": "filled and stroked",
+					"class": "CViewContainer",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "70, 110",
+					"transparent": "false",
+					"wants-focus": "false"
+				},
+				"children": {
+					"CKnob": {
+						"attributes": {
+							"angle-range": "270",
+							"angle-start": "135",
+							"circle-drawing": "false",
+							"class": "CKnob",
+							"control-tag": "Gain",
+							"corona-color": "~ WhiteCColor",
+							"corona-dash-dot": "false",
+							"corona-dash-dot-lengths": "1.26,0.1",
+							"corona-drawing": "true",
+							"corona-from-center": "false",
+							"corona-inset": "9",
+							"corona-inverted": "false",
+							"corona-line-cap-butt": "false",
+							"corona-outline": "true",
+							"corona-outline-width-add": "2",
+							"handle-color": "~ GreyCColor",
+							"handle-line-width": "4",
+							"handle-shadow-color": "~ BlackCColor",
+							"knob-range": "200",
+							"opacity": "1",
+							"origin": "0, 20",
+							"size": "70, 70",
+							"skip-handle-drawing": "false",
+							"transparent": "false",
+							"value-inset": "3",
+							"wants-focus": "true",
+							"wheel-inc-value": "0.1",
+							"zoom-factor": "1.5"
+						}
+					},
+					"CTextLabel": {
+						"attributes": {
+							"background-offset": "0, 0",
+							"class": "CTextLabel",
+							"default-value": "0.5",
+							"font": "~ NormalFont",
+							"font-antialias": "true",
+							"font-color": "~ WhiteCColor",
+							"frame-width": "1",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "0, 0",
+							"round-rect-radius": "6",
+							"size": "70, 20",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "true",
+							"style-no-text": "false",
+							"style-round-rect": "true",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"title": "Gain",
+							"transparent": "false",
+							"value-precision": "2",
+							"wants-focus": "false",
+							"wheel-inc-value": "0.1"
+						}
+					},
+					"CTextLabel": {
+						"attributes": {
+							"back-color": "~ BlackCColor",
+							"background-offset": "0, 0",
+							"class": "CTextLabel",
+							"control-tag": "Gain",
+							"font": "~ NormalFont",
+							"font-antialias": "true",
+							"font-color": "~ WhiteCColor",
+							"frame-width": "1",
+							"opacity": "1",
+							"origin": "0, 90",
+							"round-rect-radius": "6",
+							"shadow-color": "~ GreyCColor",
+							"size": "70, 20",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "true",
+							"style-no-text": "false",
+							"style-round-rect": "false",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"transparent": "false",
+							"value-precision": "2",
+							"wants-focus": "false",
+							"wheel-inc-value": "0.1"
+						}
+					}
+				}
+			}
+		}
+	}
+}
